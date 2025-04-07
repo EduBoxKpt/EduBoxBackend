@@ -16,7 +16,7 @@ public class QuestionPaper {
     private String cie1; // Now 00a String to store link for CIE1
     private String cie2; // Now a String to store link for CIE2
     private String cie3; // Now a String to store link for CIE3
-    private String see;  // Now a String to store link for SEE
+    
     private int year;
 
     // Getters and Setters
@@ -76,13 +76,6 @@ public class QuestionPaper {
         this.cie3 = cie3;
     }
 
-    public String getSee() {
-        return see;
-    }
-
-    public void setSee(String see) {
-        this.see = see;
-    }
 
     public int getYear() {
         return year;
