@@ -32,7 +32,7 @@ public class QuestionPaperController {
 
     // DELETE method to remove a question paper by ID
     @DeleteMapping("/{id}")
-    public void deleteQuestionPaper(@PathVariable Long id) {
+    public void deleteQuestionPaper(@PathVariable String id) {
         service.deleteQuestionPaper(id);
     }
 }

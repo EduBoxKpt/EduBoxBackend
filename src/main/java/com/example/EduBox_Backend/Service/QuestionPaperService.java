@@ -23,7 +23,7 @@ public class QuestionPaperService {
     }
 
     // Delete a question paper by ID
-    public void deleteQuestionPaper(Long id) {
+    public void deleteQuestionPaper(String id) {
         repository.deleteById(id);
     }
 }
