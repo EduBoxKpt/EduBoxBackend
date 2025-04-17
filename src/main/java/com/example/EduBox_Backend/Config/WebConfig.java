@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOriginPatterns("https://edubox-one.vercel.app","https://edu-box-hod-puce.vercel.app", "http://localhost:3000") // Use patterns instead of "*"
+                        .allowedOriginPatterns("https://edubox-one.vercel.app","edu-box-hod-nu.vercel.app", "http://localhost:3000") // Use patterns instead of "*"
                         .allowedMethods("*") // Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
                         .allowedHeaders("*") // Allow all headers
                         .allowCredentials(true); // Allow credentials (cookies, HTTP auth)
